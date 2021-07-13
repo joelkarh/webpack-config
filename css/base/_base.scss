@@ -1,0 +1,31 @@
+/**
+* Base
+*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+/**
+* Links
+*/
+a {
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: underline;
+        color:$brown;
+    }
+}

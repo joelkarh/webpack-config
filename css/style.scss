@@ -1,0 +1,47 @@
+/*!
+Theme Name:   	[PROJECT_NAME]
+Author:       	Experience Lab
+Author URI:     https://xlab.be/
+Description:  	Custom theme for [PROJECT_NAME]
+Version:      	1.0.0
+*/
+
+/**
+* 1. Abstracts
+*/
+@import "./abstracts/variables", "./abstracts/functions", "./abstracts/mixins";
+
+/**
+* 2. Vendors
+*/
+// @import "./vendor/";
+
+/**
+* 3. Base
+*/
+@import "./base/base", "./base/typo";
+
+/**
+* 4. Layout
+*/
+@import "./layout/header", "./layout/footer", "./layout/forms";
+
+/**
+* 5. Components
+*/
+@import "./components/buttons", "./components/slider";
+
+/**
+* 6. Flex
+*/
+// @import "./flex/story";
+
+/**
+* 7. Pages
+*/
+@import "./pages/home", "./pages/about", "./pages/contact";
+
+/**
+* 8. Themes
+*/
+@import "./themes/admin";

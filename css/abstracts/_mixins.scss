@@ -1,0 +1,15 @@
+/**
+* Media queries simplified
+*/
+@mixin break-max($breakpoint) {
+    @media screen and (max-width: map-get($max-breakpoints, $breakpoint)) {
+        @content;
+        
+    }
+}
+
+@mixin break-min($breakpoint) {
+    @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}

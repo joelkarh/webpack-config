@@ -1,0 +1,22 @@
+/**
+* Breakpoints
+*/
+$max-breakpoints: (
+    xs: 0,
+    sm: 599px,
+    md: 767px,
+    lg: 991px,
+    xl: 1199px,
+) !default;
+
+$breakpoints: (
+    xs: 0,
+    sm: 600px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+) !default;
+$mainfont:'Barlow Semi Condensed', sans-serif;
+$opensans: 'Open Sans'; 
+$beige:#EFE5D5;
+$brown:#633416;
